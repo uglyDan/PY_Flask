@@ -1,0 +1,202 @@
+{
+  "code": 0,
+  "msg": "success",
+  "data": {
+    "5": {
+      "id": 6,
+      "title": "表端 - 有声小说",
+      "biz_type": "album",
+      "count": 64,
+      "listens": [
+        {
+          "id": 6309,
+          "biz_id": 53,
+          "source_type": 1,
+          "source_id": 61310701,
+          "album_id": 61310701,
+          "duration": 0,
+          "title": "小红帽",
+          "pay_type": 1,
+          "track_count": 2114,
+          "play_count": 1262043700,
+          "main_source_id": 61310701,
+          "img": "http://imgopen.xmcdn.com/storages/fe9f-audiofreehighqps/D9/DA/GKwRIJEGGtnIAAOdbwEyhidG.jpeg!op_type=5&upload_type=album&device_type=ios&name=mobile_large&magick=png",
+          "short_intro": "风月如剑，破天修仙",
+          "announcer": {
+            "id": 86341650,
+            "nickname": "光合积木",
+            "avatar": "http://imgopen.xmcdn.com/group28/M05/34/AE/wKgJSFlUnYizY2yBAAMJJwz4v_A330.jpg!op_type=3&columns=110&rows=110"
+          }
+        },
+        {
+          "id": 99,
+          "biz_id": 106,
+          "source_type": 1,
+          "source_id": 76585092,
+          "album_id": 76585092,
+          "duration": 0,
+          "title": "白雪公主",
+          "pay_type": 1,
+          "track_count": 2110,
+          "play_count": 364483606,
+          "main_source_id": 76585092,
+          "img": "http://imgopen.xmcdn.com/storages/0ab7-audiofreehighqps/86/54/GKwRIRwIn9MHAAuJ1wJCIi0s.jpeg!op_type=5&upload_type=album&device_type=ios&name=mobile_large&magick=png",
+          "short_intro": "开局被迫入赘，猥琐发育天下无敌！",
+          "announcer": {
+            "id": 40084802,
+            "nickname": "安燃",
+            "avatar": "http://imgopen.xmcdn.com/storages/f2ab-audiofreehighqps/23/E0/GKwRIRwLm3SOAAEqagNyS6oh.jpg!op_type=3&columns=110&rows=110"
+          }
+        },
+        {
+          "id": 100,
+          "biz_id": 98,
+          "source_type": 1,
+          "source_id": 79786388,
+          "album_id": 79786388,
+          "duration": 0,
+          "title": "三只小猪",
+          "pay_type": 1,
+          "track_count": 2082,
+          "play_count": 245937296,
+          "main_source_id": 79786388,
+          "img": "http://imgopen.xmcdn.com/storages/092d-audiofreehighqps/52/F7/GKwRIJIJemUlABAAAAKbeVw1.jpeg!op_type=5&upload_type=album&device_type=ios&name=mobile_large&magick=png",
+          "short_intro": "少年英雄 ，斩妖除魔",
+          "announcer": {
+            "id": 1266964,
+            "nickname": "有声的紫襟",
+            "avatar": "http://imgopen.xmcdn.com/storages/9079-audiofreehighqps/37/16/CMCoOR8EDw_4AADBsgCMSZ9J.jpg!op_type=3&columns=110&rows=110"
+          }
+        },
+        {
+          "id": 100,
+          "biz_id": 98,
+          "source_type": 1,
+          "source_id": 79786388,
+          "album_id": 79786388,
+          "duration": 0,
+          "title": "三只小猪",
+          "pay_type": 1,
+          "track_count": 2082,
+          "play_count": 245937296,
+          "main_source_id": 79786388,
+          "img": "http://imgopen.xmcdn.com/storages/092d-audiofreehighqps/52/F7/GKwRIJIJemUlABAAAAKbeVw1.jpeg!op_type=5&upload_type=album&device_type=ios&name=mobile_large&magick=png",
+          "short_intro": "少年英雄 ，斩妖除魔",
+          "announcer": {
+            "id": 1266964,
+            "nickname": "有声的紫襟",
+            "avatar": "http://imgopen.xmcdn.com/storages/9079-audiofreehighqps/37/16/CMCoOR8EDw_4AADBsgCMSZ9J.jpg!op_type=3&columns=110&rows=110"
+          }
+        }
+      ]
+    },
+    "6": {
+      "id": 6,
+      "title": "表端 - 有声小说",
+      "biz_type": "album",
+      "count": 64,
+      "listens": [
+        {
+          "id": 6309,
+          "biz_id": 53,
+          "source_type": 1,
+          "source_id": 61310701,
+          "album_id": 61310701,
+          "duration": 0,
+          "title": "凡人修仙传|杨洋主演影视原著|姜广涛配音多播版本",
+          "pay_type": 1,
+          "track_count": 2114,
+          "play_count": 1262043700,
+          "main_source_id": 61310701,
+          "img": "http://imgopen.xmcdn.com/storages/fe9f-audiofreehighqps/D9/DA/GKwRIJEGGtnIAAOdbwEyhidG.jpeg!op_type=5&upload_type=album&device_type=ios&name=mobile_large&magick=png",
+          "short_intro": "风月如剑，破天修仙",
+          "announcer": {
+            "id": 86341650,
+            "nickname": "光合积木",
+            "avatar": "http://imgopen.xmcdn.com/group28/M05/34/AE/wKgJSFlUnYizY2yBAAMJJwz4v_A330.jpg!op_type=3&columns=110&rows=110"
+          }
+        },
+        {
+          "id": 99,
+          "biz_id": 106,
+          "source_type": 1,
+          "source_id": 76585092,
+          "album_id": 76585092,
+          "duration": 0,
+          "title": "我家娘子，不对劲|搞笑轻松&苟道修炼|安燃领衔VIP免费有声小说|多人有声剧",
+          "pay_type": 1,
+          "track_count": 2110,
+          "play_count": 364483606,
+          "main_source_id": 76585092,
+          "img": "http://imgopen.xmcdn.com/storages/0ab7-audiofreehighqps/86/54/GKwRIRwIn9MHAAuJ1wJCIi0s.jpeg!op_type=5&upload_type=album&device_type=ios&name=mobile_large&magick=png",
+          "short_intro": "开局被迫入赘，猥琐发育天下无敌！",
+          "announcer": {
+            "id": 40084802,
+            "nickname": "安燃",
+            "avatar": "http://imgopen.xmcdn.com/storages/f2ab-audiofreehighqps/23/E0/GKwRIRwLm3SOAAEqagNyS6oh.jpg!op_type=3&columns=110&rows=110"
+          }
+        },
+        {
+          "id": 100,
+          "biz_id": 98,
+          "source_type": 1,
+          "source_id": 79786388,
+          "album_id": 79786388,
+          "duration": 0,
+          "title": "武夫|有声的紫襟团队演播|刀锋少年：斩妖之旅",
+          "pay_type": 1,
+          "track_count": 2082,
+          "play_count": 245937296,
+          "main_source_id": 79786388,
+          "img": "http://imgopen.xmcdn.com/storages/092d-audiofreehighqps/52/F7/GKwRIJIJemUlABAAAAKbeVw1.jpeg!op_type=5&upload_type=album&device_type=ios&name=mobile_large&magick=png",
+          "short_intro": "少年英雄 ，斩妖除魔",
+          "announcer": {
+            "id": 1266964,
+            "nickname": "有声的紫襟",
+            "avatar": "http://imgopen.xmcdn.com/storages/9079-audiofreehighqps/37/16/CMCoOR8EDw_4AADBsgCMSZ9J.jpg!op_type=3&columns=110&rows=110"
+          }
+        },
+        {
+          "id": 100,
+          "biz_id": 98,
+          "source_type": 1,
+          "source_id": 79786388,
+          "album_id": 79786388,
+          "duration": 0,
+          "title": "武夫|有声的紫襟团队演播|刀锋少年：斩妖之旅",
+          "pay_type": 1,
+          "track_count": 2082,
+          "play_count": 245937296,
+          "main_source_id": 79786388,
+          "img": "http://imgopen.xmcdn.com/storages/092d-audiofreehighqps/52/F7/GKwRIJIJemUlABAAAAKbeVw1.jpeg!op_type=5&upload_type=album&device_type=ios&name=mobile_large&magick=png",
+          "short_intro": "少年英雄 ，斩妖除魔",
+          "announcer": {
+            "id": 1266964,
+            "nickname": "有声的紫襟",
+            "avatar": "http://imgopen.xmcdn.com/storages/9079-audiofreehighqps/37/16/CMCoOR8EDw_4AADBsgCMSZ9J.jpg!op_type=3&columns=110&rows=110"
+          }
+        },
+        {
+          "id": 100,
+          "biz_id": 98,
+          "source_type": 1,
+          "source_id": 79786388,
+          "album_id": 79786388,
+          "duration": 0,
+          "title": "武夫|有声的紫襟团队演播|刀锋少年：斩妖之旅",
+          "pay_type": 1,
+          "track_count": 2082,
+          "play_count": 245937296,
+          "main_source_id": 79786388,
+          "img": "http://imgopen.xmcdn.com/storages/092d-audiofreehighqps/52/F7/GKwRIJIJemUlABAAAAKbeVw1.jpeg!op_type=5&upload_type=album&device_type=ios&name=mobile_large&magick=png",
+          "short_intro": "少年英雄 ，斩妖除魔",
+          "announcer": {
+            "id": 1266964,
+            "nickname": "有声的紫襟",
+            "avatar": "http://imgopen.xmcdn.com/storages/9079-audiofreehighqps/37/16/CMCoOR8EDw_4AADBsgCMSZ9J.jpg!op_type=3&columns=110&rows=110"
+          }
+        }
+      ]
+    }
+  }
+}

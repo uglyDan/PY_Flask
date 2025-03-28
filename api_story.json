@@ -1,0 +1,158 @@
+{
+  "msg": "success",
+  "code": 0,
+  "data": {
+    "0": {
+      "album": {
+        "composed_price_type": 1,
+        "album_id": 61310701,
+        "source_type": 1,
+        "pay_type": 4,
+        "id": 53,
+        "title": "儿童故事",
+        "play_count": 1262043700,
+        "track_count": 2114
+      },
+      "count": 2114,
+      "current_page": 1,
+      "tracks": [
+        {
+          "duration": 265,
+          "track_id": 516265359,
+          "album_id": 61310701,
+          "source_type": 0,
+          "pay_type": 2,
+          "play_size": 3312843,
+          "id": null,
+          "title": "故事 第7 砸瓶子",
+          "play_count": 2127437,
+          "play_url": "http://27.37.65.4:50000/api/story_url_media?id=516265359"
+        },
+        {
+          "duration": 265,
+          "track_id": 516265371,
+          "album_id": 61310701,
+          "source_type": 0,
+          "pay_type": 2,
+          "play_size": 3312843,
+          "id": null,
+          "title": "故事 第8 异象起",
+          "play_count": 2081082,
+          "play_url": "http://27.37.65.4:50000/api/story_url_media?id=516265371"
+        },
+        {
+          "duration": 265,
+          "track_id": 516265405,
+          "album_id": 61310701,
+          "source_type": 0,
+          "pay_type": 2,
+          "play_size": 3312843,
+          "id": null,
+          "title": "故事 第9 小算盘",
+          "play_count": 2004985,
+          "play_url": "http://27.37.65.4:50000/api/story_url_media?id=516265405"
+        }
+      ]
+    },
+    "1": {
+      "album": {
+        "composed_price_type": 1,
+        "album_id": 61310701,
+        "source_type": 1,
+        "pay_type": 4,
+        "id": 53,
+        "title": "每周上新",
+        "play_count": 1262043700,
+        "track_count": 2114
+      },
+      "count": 2114,
+      "current_page": 1,
+      "tracks": [
+        {
+          "duration": 265,
+          "track_id": 516265250,
+          "album_id": 61310701,
+          "source_type": 0,
+          "pay_type": 2,
+          "play_size": 3312843,
+          "id": null,
+          "title": "听妈妈的话",
+          "play_count": 3354200,
+          "play_url": "http://27.37.65.4:50000/api/story_url_media?id=516265250"
+        },
+        {
+          "duration": 265,
+          "track_id": 516265274,
+          "album_id": 61310701,
+          "source_type": 0,
+          "pay_type": 2,
+          "play_size": 3312843,
+          "id": null,
+          "title": "晴天",
+          "play_count": 4611260,
+          "play_url": "http://27.37.65.4:50000/api/story_url_media?id=516265274"
+        },
+        {
+          "duration": 265,
+          "track_id": 516265291,
+          "album_id": 61310701,
+          "source_type": 0,
+          "pay_type": 2,
+          "play_size": 3312843,
+          "id": null,
+          "title": "月半小夜曲",
+          "play_count": 2836433,
+          "play_url": "http://27.37.65.4:50000/api/story_url_media?id=516265291"
+        },
+        {
+          "duration": 265,
+          "track_id": 516265306,
+          "album_id": 61310701,
+          "source_type": 0,
+          "pay_type": 2,
+          "play_size": 3312843,
+          "id": null,
+          "title": "梦醒时分",
+          "play_count": 2581557,
+          "play_url": "http://27.37.65.4:50000/api/story_url_media?id=516265306"
+        },
+        {
+          "duration": 265,
+          "track_id": 516265314,
+          "album_id": 61310701,
+          "source_type": 0,
+          "pay_type": 2,
+          "play_size": 3312843,
+          "id": null,
+          "title": "稻香",
+          "play_count": 2373884,
+          "play_url": "http://27.37.65.4:50000/api/story_url_media?id=516265314"
+        },
+        {
+          "duration": 265,
+          "track_id": 516265328,
+          "album_id": 61310701,
+          "source_type": 0,
+          "pay_type": 2,
+          "play_size": 3312843,
+          "id": null,
+          "title": "红日",
+          "play_count": 2278473,
+          "play_url": "http://27.37.65.4:50000/api/story_url_media?id=516265328"
+        },
+        {
+          "duration": 265,
+          "track_id": 516265342,
+          "album_id": 61310701,
+          "source_type": 0,
+          "pay_type": 2,
+          "play_size": 3312843,
+          "id": null,
+          "title": "蓝莲花",
+          "play_count": 2245608,
+          "play_url": "http://27.37.65.4:50000/api/story_url_media?id=516265342"
+        }
+      ]
+    }
+  }
+}

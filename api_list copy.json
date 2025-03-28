@@ -1,0 +1,214 @@
+{
+    "code": 0,
+    "msg": "success",
+    "data": {
+      "6": {
+        "id": 6,
+        "title": "表端 - 有声小说",
+        "biz_type": "album",
+        "count": 64,
+        "listens": [
+          {
+            "id": 6309,
+            "biz_id": 53,
+            "source_type": 1,
+            "source_id": 61310701,
+            "album_id": 61310701,
+            "duration": 0,
+            "title": "凡人修仙传|杨洋主演影视原著|姜广涛配音多播版本",
+            "pay_type": 1,
+            "track_count": 2114,
+            "play_count": 1262043700,
+            "main_source_id": 61310701,
+            "img": "http://imgopen.xmcdn.com/storages/fe9f-audiofreehighqps/D9/DA/GKwRIJEGGtnIAAOdbwEyhidG.jpeg!op_type=5&upload_type=album&device_type=ios&name=mobile_large&magick=png",
+            "short_intro": "风月如剑，破天修仙",
+            "announcer": {
+              "id": 86341650,
+              "nickname": "光合积木",
+              "avatar": "http://imgopen.xmcdn.com/group28/M05/34/AE/wKgJSFlUnYizY2yBAAMJJwz4v_A330.jpg!op_type=3&columns=110&rows=110"
+            }
+          },
+          {
+            "id": 99,
+            "biz_id": 106,
+            "source_type": 1,
+            "source_id": 76585092,
+            "album_id": 76585092,
+            "duration": 0,
+            "title": "我家娘子，不对劲|搞笑轻松&苟道修炼|安燃领衔VIP免费有声小说|多人有声剧",
+            "pay_type": 1,
+            "track_count": 2110,
+            "play_count": 364483606,
+            "main_source_id": 76585092,
+            "img": "http://imgopen.xmcdn.com/storages/0ab7-audiofreehighqps/86/54/GKwRIRwIn9MHAAuJ1wJCIi0s.jpeg!op_type=5&upload_type=album&device_type=ios&name=mobile_large&magick=png",
+            "short_intro": "开局被迫入赘，猥琐发育天下无敌！",
+            "announcer": {
+              "id": 40084802,
+              "nickname": "安燃",
+              "avatar": "http://imgopen.xmcdn.com/storages/f2ab-audiofreehighqps/23/E0/GKwRIRwLm3SOAAEqagNyS6oh.jpg!op_type=3&columns=110&rows=110"
+            }
+          },
+          {
+            "id": 100,
+            "biz_id": 98,
+            "source_type": 1,
+            "source_id": 79786388,
+            "album_id": 79786388,
+            "duration": 0,
+            "title": "武夫|有声的紫襟团队演播|刀锋少年：斩妖之旅",
+            "pay_type": 1,
+            "track_count": 2082,
+            "play_count": 245937296,
+            "main_source_id": 79786388,
+            "img": "http://imgopen.xmcdn.com/storages/092d-audiofreehighqps/52/F7/GKwRIJIJemUlABAAAAKbeVw1.jpeg!op_type=5&upload_type=album&device_type=ios&name=mobile_large&magick=png",
+            "short_intro": "少年英雄 ，斩妖除魔",
+            "announcer": {
+              "id": 1266964,
+              "nickname": "有声的紫襟",
+              "avatar": "http://imgopen.xmcdn.com/storages/9079-audiofreehighqps/37/16/CMCoOR8EDw_4AADBsgCMSZ9J.jpg!op_type=3&columns=110&rows=110"
+            }
+          },
+          {
+            "id": 101,
+            "biz_id": 107,
+            "source_type": 1,
+            "source_id": 69053224,
+            "album_id": 69053224,
+            "duration": 0,
+            "title": "无尽吞噬| 爆款玄幻神作| 免费多人有声剧",
+            "pay_type": 0,
+            "track_count": 2523,
+            "play_count": 131898219,
+            "main_source_id": 69053224,
+            "img": "http://imgopen.xmcdn.com/storages/fe2c-audiofreehighqps/6E/68/GMCoOR4GjC9tAAdxEQFxjJcI.jpg!op_type=5&upload_type=album&device_type=ios&name=mobile_large&magick=png",
+            "short_intro": "开局贱卖师姐画册，觉醒武魂走上人生巅峰！",
+            "announcer": {
+              "id": 30260578,
+              "nickname": "水寒_六合同风",
+              "avatar": "http://imgopen.xmcdn.com/storages/869e-audiofreehighqps/B7/11/GKwRIasGAUxUAADRZwEoZN6s.jpg!op_type=3&columns=110&rows=110"
+            }
+          },
+          {
+            "id": 102,
+            "biz_id": 114,
+            "source_type": 1,
+            "source_id": 69102603,
+            "album_id": 69102603,
+            "duration": 0,
+            "title": "高手下山:开局九封婚书|修仙十年|无敌爆笑|都市异能|紫襟剧社制作",
+            "pay_type": 1,
+            "track_count": 1997,
+            "play_count": 240079807,
+            "main_source_id": 69102603,
+            "img": "http://imgopen.xmcdn.com/storages/48ff-audiofreehighqps/7C/90/GMCoOScGkZuFAA354gF0Es1a.jpeg!op_type=5&upload_type=album&device_type=ios&name=mobile_large&magick=png",
+            "short_intro": "拳打显赫豪门，脚踢黑暗势力。退婚流，封顶神作！",
+            "announcer": {
+              "id": 292377710,
+              "nickname": "紫襟剧社",
+              "avatar": "http://imgopen.xmcdn.com/storages/afcf-audiofreehighqps/02/74/CKwRIW4Ex3xrAAHf3QDJHmM5.jpg!op_type=3&columns=110&rows=110"
+            }
+          },
+          {
+            "id": 103,
+            "biz_id": 115,
+            "source_type": 1,
+            "source_id": 72749710,
+            "album_id": 72749710,
+            "duration": 0,
+            "title": "我，签到万年，被美女徒弟曝光了丨爆笑爽文丨进群抢红包雨丨沐阳剧社丨免费多人有声剧",
+            "pay_type": 0,
+            "track_count": 2555,
+            "play_count": 73895667,
+            "main_source_id": 72749710,
+            "img": "http://imgopen.xmcdn.com/storages/2031-audiofreehighqps/60/D6/GKwRIMAHVf93AAKrZQHUC4TE.jpeg!op_type=5&upload_type=album&device_type=ios&name=mobile_large&magick=png",
+            "short_intro": "看老祖宗我上天入地，但求一败！",
+            "announcer": {
+              "id": 379590928,
+              "nickname": "沐阳剧社_有声之年",
+              "avatar": "http://imgopen.xmcdn.com/storages/0c6b-audiofreehighqps/A2/BA/GKwRIDoKVFgSAAGWdALorhFF.jpg!op_type=3&columns=110&rows=110"
+            }
+          },
+          {
+            "id": 104,
+            "biz_id": 110,
+            "source_type": 1,
+            "source_id": 40514512,
+            "album_id": 40514512,
+            "duration": 0,
+            "title": "炼气十万年 | 同名动漫原著|超人气免费玄幻多人有声剧（老宝玉）",
+            "pay_type": 0,
+            "track_count": 1983,
+            "play_count": 610848274,
+            "main_source_id": 40514512,
+            "img": "http://imgopen.xmcdn.com/group82/M00/0D/3E/wKg5Il8ny0TyzoKwAALgTGMWm5k508.jpg!op_type=5&upload_type=album&device_type=ios&name=mobile_large&magick=png",
+            "short_intro": "十万年太久只争朝夕，重燃玄幻梦",
+            "announcer": {
+              "id": 61885848,
+              "nickname": "老宝玉_白玉京",
+              "avatar": "http://imgopen.xmcdn.com/storages/13a7-audiofreehighqps/5C/74/GKwRIasH6MrkAAGDRQIDP7pH.jpg!op_type=3&columns=110&rows=110"
+            }
+          },
+          {
+            "id": 105,
+            "biz_id": 111,
+            "source_type": 1,
+            "source_id": 3144213,
+            "album_id": 3144213,
+            "duration": 0,
+            "title": "神印王座|唐家三少著,爆款动漫原著有声小说",
+            "pay_type": 1,
+            "track_count": 479,
+            "play_count": 112729543,
+            "main_source_id": 3144213,
+            "img": "http://imgopen.xmcdn.com/storages/2a4b-audiofreehighqps/00/81/GMCoOSYH9tO2AAQR4QIHXGcV.jpeg!op_type=5&upload_type=album&device_type=ios&name=mobile_large&magick=png",
+            "short_intro": "多播精品|唐家三少作品|动漫原著热血爽文",
+            "announcer": {
+              "id": 12998550,
+              "nickname": "猴哥故事会",
+              "avatar": "http://imgopen.xmcdn.com/storages/1f8a-audiofreehighqps/78/42/CMCoOScD2FDQAACo6QB8RGnj.jpg!op_type=3&columns=110&rows=110"
+            }
+          },
+          {
+            "id": 106,
+            "biz_id": 116,
+            "source_type": 1,
+            "source_id": 9724463,
+            "album_id": 9724463,
+            "duration": 0,
+            "title": "《剑来》上 · 烽火戏诸侯&大斌",
+            "pay_type": 0,
+            "track_count": 885,
+            "play_count": 2002875208,
+            "main_source_id": 9724463,
+            "img": "http://imgopen.xmcdn.com/storages/e8b3-audiofreehighqps/F2/36/GKwRIJEKmdQJAASE_wMCw5ry.jpeg!op_type=5&upload_type=album&device_type=ios&name=mobile_large&magick=png",
+            "short_intro": "雪中树风骨，剑来正三观",
+            "announcer": {
+              "id": 2342717,
+              "nickname": "大斌",
+              "avatar": "http://imgopen.xmcdn.com/group77/M09/06/EE/wKgO1V6IytPzNdkOAABs801LkNM720.jpg!op_type=3&columns=110&rows=110"
+            }
+          },
+          {
+            "id": 107,
+            "biz_id": 117,
+            "source_type": 1,
+            "source_id": 51079830,
+            "album_id": 51079830,
+            "duration": 0,
+            "title": "我师兄实在太稳健了丨动漫《师兄啊师兄》原著丨司徒小大大领衔演绎",
+            "pay_type": 1,
+            "track_count": 1771,
+            "play_count": 921220568,
+            "main_source_id": 51079830,
+            "img": "http://imgopen.xmcdn.com/storages/741c-audiofreehighqps/5B/C1/GMCoOR8Hq-RpAAZbaQHxhL7L.jpeg!op_type=5&upload_type=album&device_type=ios&name=mobile_large&magick=png",
+            "short_intro": "2020起点现象级作品！",
+            "announcer": {
+              "id": 70585325,
+              "nickname": "司徒小大大",
+              "avatar": "http://imgopen.xmcdn.com/storages/ad9b-audiofreehighqps/EE/67/GAqh1QQLQwxaAAFagANHl8hF.jpg!op_type=3&columns=110&rows=110"
+            }
+          }
+        ]
+      }
+    }
+  }
