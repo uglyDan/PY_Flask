@@ -1,4 +1,5 @@
 from flask import Flask, json, jsonify, request, send_file
+from flask_range_request import RangeRequest
 import os
 
 app = Flask(__name__)
@@ -111,46 +112,14 @@ def get_story_url_media():
         file_path = os.path.join('mp3', AUDIO_MAPPING[story_id])
         
         if os.path.exists(file_path):
-            # 获取文件大小
-            file_size = os.path.getsize(file_path)
-            
-            # 获取请求的 Range 头部
-            range_header = request.headers.get('Range')
-            
-            if range_header:
-                # 解析 Range 头部
-                try:
-                    range_bytes = range_header.replace('bytes=', '').split('-')
-                    start = int(range_bytes[0])
-                    end = int(range_bytes[1]) if range_bytes[1] else file_size - 1
-                    
-                    # 设置 Content-Range 头部
-                    response = send_file(
-                        file_path,
-                        mimetype='audio/mpeg',
-                        as_attachment=False,
-                        conditional=True
-                    )
-                    response.headers['Content-Range'] = f'bytes {start}-{end}/{file_size}'
-                    response.headers['Content-Length'] = str(end - start + 1)
-                    response.headers['Connection'] = 'keep-alive'
-                    response.headers['Cache-Control'] = 'no-store'
-                    response.headers['Accept-Ranges'] = 'bytes'
-                    response.status_code = 206
-                    return response
-                except ValueError:
-                    return jsonify({"code": 1, "ret": 1, "msg": "invalid range header"}), 400
-            
-            # 如果没有 Range 头部，返回完整文件
-            response = send_file(
+            # 使用 Flask-RangeRequest 处理 Range 请求
+            response = RangeRequest(
                 file_path,
                 mimetype='audio/mpeg',
                 as_attachment=False
             )
-            response.headers['Content-Length'] = str(file_size)
             response.headers['Connection'] = 'keep-alive'
-            response.headers['Cache-Control'] = 'no-store'
-            response.headers['Accept-Ranges'] = 'bytes'
+            response.headers['Cache-Control'] = 'max-age=2592000'
             return response
         else:
             return jsonify({"code": 1, "ret": 1, "msg": "audio file not found"}), 404
