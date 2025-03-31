@@ -26,7 +26,7 @@
           "id": null,
           "title": "故事 第7 砸瓶子",
           "play_count": 2127437,
-          "play_url": "http://27.37.65.4:50000/api/story_url_media?id=516265359"
+          "play_url": "http://27.37.65.4:50000/api/story_url_media/ting_ma_ma_de_hua.mp3"
         },
         {
           "duration": 265,
@@ -38,7 +38,7 @@
           "id": null,
           "title": "故事 第8 异象起",
           "play_count": 2081082,
-          "play_url": "http://27.37.65.4:50000/api/story_url_media?id=516265371"
+          "play_url": "http://27.37.65.4:50000/api/story_url_media/ting_ma_ma_de_hua.mp3"
         },
         {
           "duration": 265,
@@ -50,7 +50,7 @@
           "id": null,
           "title": "故事 第9 小算盘",
           "play_count": 2004985,
-          "play_url": "http://27.37.65.4:50000/api/story_url_media?id=516265405"
+          "play_url": "http://27.37.65.4:50000/api/story_url_media/ting_ma_ma_de_hua.mp3"
         }
       ]
     },
@@ -78,7 +78,7 @@
           "id": null,
           "title": "听妈妈的话",
           "play_count": 3354200,
-          "play_url": "http://27.37.65.4:50000/api/story_url_media?id=516265250"
+          "play_url": "http://27.37.65.4:50000/api/story_url_media/ting_ma_ma_de_hua.mp3"
         },
         {
           "duration": 265,
@@ -90,7 +90,7 @@
           "id": null,
           "title": "晴天",
           "play_count": 4611260,
-          "play_url": "http://27.37.65.4:50000/api/story_url_media?id=516265274"
+          "play_url": "http://27.37.65.4:50000/api/story_url_media/晴天.mp3"
         },
         {
           "duration": 265,
@@ -102,7 +102,7 @@
           "id": null,
           "title": "月半小夜曲",
           "play_count": 2836433,
-          "play_url": "http://27.37.65.4:50000/api/story_url_media?id=516265291"
+          "play_url": "http://27.37.65.4:50000/api/story_url_media/月半小夜曲.mp3"
         },
         {
           "duration": 265,
@@ -114,7 +114,7 @@
           "id": null,
           "title": "梦醒时分",
           "play_count": 2581557,
-          "play_url": "http://27.37.65.4:50000/api/story_url_media?id=516265306"
+          "play_url": "http://27.37.65.4:50000/api/story_url_media/梦醒时分.mp3"
         },
         {
           "duration": 265,
@@ -126,7 +126,7 @@
           "id": null,
           "title": "稻香",
           "play_count": 2373884,
-          "play_url": "http://27.37.65.4:50000/api/story_url_media?id=516265314"
+          "play_url": "http://27.37.65.4:50000/api/story_url_media/稻香.mp3"
         },
         {
           "duration": 265,
@@ -138,7 +138,7 @@
           "id": null,
           "title": "红日",
           "play_count": 2278473,
-          "play_url": "http://27.37.65.4:50000/api/story_url_media?id=516265328"
+          "play_url": "http://27.37.65.4:50000/api/story_url_media/红日.mp3"
         },
         {
           "duration": 265,
@@ -150,7 +150,7 @@
           "id": null,
           "title": "蓝莲花",
           "play_count": 2245608,
-          "play_url": "http://27.37.65.4:50000/api/story_url_media?id=516265342"
+          "play_url": "http://27.37.65.4:50000/api/story_url_media/蓝莲花.mp3"
         }
       ]
     }
