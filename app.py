@@ -1,34 +1,7 @@
 from flask import Flask, json, jsonify, request, send_file
-from flask_range_request import RangeRequest
 import os
 
 app = Flask(__name__)
-
-# 音频文件映射关系
-# AUDIO_MAPPING = {
-#     "516265250": "听妈妈的话.mp3",
-#     "516265274": "晴天.mp3",
-#     "516265291": "月半小夜曲.mp3",
-#     "516265306": "梦醒时分.mp3",
-#     "516265314": "稻香.mp3",
-#     "516265328": "红日.mp3",
-#     "516265342": "蓝莲花.mp3",
-#     "516265359": "audio.mp3",
-#     "516265371": "audio.mp3",
-#     "516265405": "audio.mp3"
-# }
-AUDIO_MAPPING = {
-    "516265250": "audio.mp3",
-    "516265274": "audio.mp3",
-    "516265291": "audio.mp3",
-    "516265306": "audio.mp3",
-    "516265314": "audio.mp3",
-    "516265328": "audio.mp3",
-    "516265342": "audio.mp3",
-    "516265359": "audio.mp3",
-    "516265371": "audio.mp3",
-    "516265405": "audio.mp3"
-}
 
 @app.route('/api/list', methods=['GET'])
 def get_list():
@@ -102,29 +75,26 @@ def get_story_url():
     return jsonify({"code": 1, "ret": 1, "msg": "story not found"}), 404
 
 # 表端 故事播放 媒体流 content-type:audio/mpeg
-@app.route('/api/story_url_media', methods=['GET'])
-def get_story_url_media():
-    # 获取请求参数中的id
-    story_id = request.args.get('id')
+@app.route('/api/story_url_media/<filename>', methods=['GET'])
+def get_story_url_media(filename):
+    file_path = os.path.join('mp3', filename)
     
-    # 检查是否存在对应的音频文件
-    if story_id in AUDIO_MAPPING:
-        file_path = os.path.join('mp3', AUDIO_MAPPING[story_id])
-        
-        if os.path.exists(file_path):
-            # 使用 Flask-RangeRequest 处理 Range 请求
-            response = RangeRequest(
-                file_path,
-                mimetype='audio/mpeg',
-                as_attachment=False
-            )
-            response.headers['Connection'] = 'keep-alive'
-            response.headers['Cache-Control'] = 'max-age=2592000'
-            return response
-        else:
-            return jsonify({"code": 1, "ret": 1, "msg": "audio file not found"}), 404
-    else:
-        return jsonify({"code": 1, "ret": 1, "msg": "story not found"}), 404
+    if not os.path.isfile(file_path):
+        return jsonify({"code": 1, "ret": 1, "msg": "audio file not found"}), 404
+    
+    response = send_file(
+        file_path,
+        mimetype='audio/mpeg',
+        as_attachment=False,
+        conditional=True
+    )
+    
+    # 确保使用正确的缓存控制和连接头
+    response.headers['Cache-Control'] = 'no-store'
+    response.headers['Connection'] = 'keep-alive'
+    response.headers['Accept-Ranges'] = 'bytes'
+    
+    return response
 
 if __name__ == '__main__':
     # 启用调试模式，默认端口5000
