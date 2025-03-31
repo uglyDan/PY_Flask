@@ -90,7 +90,7 @@
           "id": null,
           "title": "晴天",
           "play_count": 4611260,
-          "play_url": "http://27.37.65.4:50000/api/story_url_media/晴天.mp3"
+          "play_url": "http://27.37.65.4:50000/api/story_url_media/qing_tian.mp3"
         },
         {
           "duration": 265,
@@ -102,7 +102,7 @@
           "id": null,
           "title": "月半小夜曲",
           "play_count": 2836433,
-          "play_url": "http://27.37.65.4:50000/api/story_url_media/月半小夜曲.mp3"
+          "play_url": "http://27.37.65.4:50000/api/story_url_media/ye_ban_xiao_ye_qu.mp3"
         },
         {
           "duration": 265,
@@ -114,7 +114,7 @@
           "id": null,
           "title": "梦醒时分",
           "play_count": 2581557,
-          "play_url": "http://27.37.65.4:50000/api/story_url_media/梦醒时分.mp3"
+          "play_url": "http://27.37.65.4:50000/api/story_url_media/meng_xing_shi_fen.mp3"
         },
         {
           "duration": 265,
@@ -126,7 +126,7 @@
           "id": null,
           "title": "稻香",
           "play_count": 2373884,
-          "play_url": "http://27.37.65.4:50000/api/story_url_media/稻香.mp3"
+          "play_url": "http://27.37.65.4:50000/api/story_url_media/dao_xiang.mp3"
         },
         {
           "duration": 265,
@@ -138,7 +138,7 @@
           "id": null,
           "title": "红日",
           "play_count": 2278473,
-          "play_url": "http://27.37.65.4:50000/api/story_url_media/红日.mp3"
+          "play_url": "http://27.37.65.4:50000/api/story_url_media/ting_ma_ma_de_hua.mp3"
         },
         {
           "duration": 265,
@@ -150,7 +150,7 @@
           "id": null,
           "title": "蓝莲花",
           "play_count": 2245608,
-          "play_url": "http://27.37.65.4:50000/api/story_url_media/蓝莲花.mp3"
+          "play_url": "http://27.37.65.4:50000/api/story_url_media/lan_lian_hua.mp3"
         }
       ]
     }
