@@ -8,56 +8,35 @@
             "jump_value": "0",
             "style": null,
             "id": 39,
-            "title": "每周上新",
+            "title": "New weekly",
             "jump_type": "listen"
           },
           {
             "jump_value": "1",
             "style": null,
             "id": 40,
-            "title": "安徒生童话",
+            "title": "Andersen's Fairy Tales",
             "jump_type": "listen"
           },
           {
             "jump_value": "2",
             "style": null,
             "id": 41,
-            "title": "一千零一夜",
+            "title": "The Arabian Nights",
             "jump_type": "listen"
           },
           {
             "jump_value": "3",
             "style": null,
             "id": 42,
-            "title": "格林童话",
+            "title": "Grimm's Fairy Tales",
             "jump_type": "listen"
           },
           {
             "jump_value": "4",
             "style": null,
             "id": 43,
-            "title": "寓言故事",
-            "jump_type": "listen"
-          },
-          {
-            "jump_value": "5",
-            "style": null,
-            "id": 44,
-            "title": "成语故事",
-            "jump_type": "listen"
-          },
-          {
-            "jump_value": "6",
-            "style": null,
-            "id": 45,
-            "title": "神话故事",
-            "jump_type": "listen"
-          },
-          {
-            "jump_value": "7",
-            "style": null,
-            "id": 46,
-            "title": "民间故事",
+            "title": "Fairy Tales",
             "jump_type": "listen"
           }
         ],

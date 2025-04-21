@@ -9,58 +9,6 @@
         "source_type": 1,
         "pay_type": 4,
         "id": 53,
-        "title": "儿童故事",
-        "play_count": 1262043700,
-        "track_count": 2114
-      },
-      "count": 2114,
-      "current_page": 1,
-      "tracks": [
-        {
-          "duration": 265,
-          "track_id": 516265359,
-          "album_id": 61310701,
-          "source_type": 0,
-          "pay_type": 2,
-          "play_size": 3312843,
-          "id": null,
-          "title": "故事 第7 砸瓶子",
-          "play_count": 2127437,
-          "play_url": "http://27.37.65.4:50000/api/story_url_media/ting_ma_ma_de_hua.mp3"
-        },
-        {
-          "duration": 265,
-          "track_id": 516265371,
-          "album_id": 61310701,
-          "source_type": 0,
-          "pay_type": 2,
-          "play_size": 3312843,
-          "id": null,
-          "title": "故事 第8 异象起",
-          "play_count": 2081082,
-          "play_url": "http://27.37.65.4:50000/api/story_url_media/ting_ma_ma_de_hua.mp3"
-        },
-        {
-          "duration": 265,
-          "track_id": 516265405,
-          "album_id": 61310701,
-          "source_type": 0,
-          "pay_type": 2,
-          "play_size": 3312843,
-          "id": null,
-          "title": "故事 第9 小算盘",
-          "play_count": 2004985,
-          "play_url": "http://27.37.65.4:50000/api/story_url_media/ting_ma_ma_de_hua.mp3"
-        }
-      ]
-    },
-    "1": {
-      "album": {
-        "composed_price_type": 1,
-        "album_id": 61310701,
-        "source_type": 1,
-        "pay_type": 4,
-        "id": 53,
         "title": "每周上新",
         "play_count": 1262043700,
         "track_count": 2114
@@ -151,6 +99,402 @@
           "title": "蓝莲花",
           "play_count": 2245608,
           "play_url": "http://27.37.65.4:50000/api/story_url_media/lan_lian_hua.mp3"
+        }
+      ]
+    },
+    "1": {
+      "album": {
+        "composed_price_type": 1,
+        "album_id": 61310701,
+        "source_type": 1,
+        "pay_type": 4,
+        "id": 53,
+        "title": "安徒生童话",
+        "play_count": 1262043700,
+        "track_count": 2114
+      },
+      "count": 2114,
+      "current_page": 1,
+      "tracks": [
+        {
+          "duration": 265,
+          "track_id": 516265359,
+          "album_id": 61310701,
+          "source_type": 0,
+          "pay_type": 2,
+          "play_size": 3312843,
+          "id": null,
+          "title": "Princesspea Shorter",
+          "play_count": 2127437,
+          "play_url": "http://27.37.65.4:50000/api/story_url_media/andersen.1.princesspea-shorter.mp3"
+        },
+        {
+          "duration": 265,
+          "track_id": 516265391,
+          "album_id": 61310701,
+          "source_type": 0,
+          "pay_type": 2,
+          "play_size": 3312843,
+          "id": null,
+          "title": "Tinderbox",
+          "play_count": 2081082,
+          "play_url": "http://27.37.65.4:50000/api/story_url_media/andersen.2.tinderbox.mp3"
+        },
+        {
+          "duration": 265,
+          "track_id": 516265405,
+          "album_id": 61310701,
+          "source_type": 0,
+          "pay_type": 2,
+          "play_size": 3312843,
+          "id": null,
+          "title": "The Steadfast Tin Soldier",
+          "play_count": 2004985,
+          "play_url": "http://27.37.65.4:50000/api/story_url_media/andersen.3.The_Steadfast_Tin_Soldier.mp3"
+        },
+        {
+          "duration": 265,
+          "track_id": 516265406,
+          "album_id": 61310701,
+          "source_type": 0,
+          "pay_type": 2,
+          "play_size": 3312843,
+          "id": null,
+          "title": "Ugly Duckling",
+          "play_count": 2004985,
+          "play_url": "http://27.37.65.4:50000/api/story_url_media/andersen.4.ugly_duckling.mp3"
+        },
+        {
+          "duration": 265,
+          "track_id": 516265407,
+          "album_id": 61310701,
+          "source_type": 0,
+          "pay_type": 2,
+          "play_size": 3312843,
+          "id": null,
+          "title": "Emperor New Clothes",
+          "play_count": 2004985,
+          "play_url": "http://27.37.65.4:50000/api/story_url_media/andersen.5.emperornewclothes.mp3"
+        },
+        {
+          "duration": 265,
+          "track_id": 516265408,
+          "album_id": 61310701,
+          "source_type": 0,
+          "pay_type": 2,
+          "play_size": 3312843,
+          "id": null,
+          "title": "Sheperdess Sweep",
+          "play_count": 2004985,
+          "play_url": "http://27.37.65.4:50000/api/story_url_media/andersen.6.sheperdess_sweep.mp3"
+        },
+        {
+          "duration": 265,
+          "track_id": 516265409,
+          "album_id": 61310701,
+          "source_type": 0,
+          "pay_type": 2,
+          "play_size": 3312843,
+          "id": null,
+          "title": "The Little Mermaid Part One",
+          "play_count": 2004985,
+          "play_url": "http://27.37.65.4:50000/api/story_url_media/andersen.7.The_Little_Mermaid_Part_One.mp3"
+        },
+        {
+          "duration": 265,
+          "track_id": 516265410,
+          "album_id": 61310701,
+          "source_type": 0,
+          "pay_type": 2,
+          "play_size": 3312843,
+          "id": null,
+          "title": "The Little Mermaid Part Two",
+          "play_count": 2004985,
+          "play_url": "http://27.37.65.4:50000/api/story_url_media/andersen.8.The_Little_Mermaid_Part_Two.mp3"
+        },
+        {
+          "duration": 265,
+          "track_id": 516265411,
+          "album_id": 61310701,
+          "source_type": 0,
+          "pay_type": 2,
+          "play_size": 3312843,
+          "id": null,
+          "title": "The Little Mermaid Part Three",
+          "play_count": 2004985,
+          "play_url": "http://27.37.65.4:50000/api/story_url_media/andersen.9.The_Little_Mermaid_Part_Three.mp3"
+        },
+        {
+          "duration": 265,
+          "track_id": 516265412,
+          "album_id": 61310701,
+          "source_type": 0,
+          "pay_type": 2,
+          "play_size": 3312843,
+          "id": null,
+          "title": "Storynory Wicked Prince",
+          "play_count": 2004985,
+          "play_url": "http://27.37.65.4:50000/api/story_url_media/andersen.10.storynory_wicked_prince.mp3"
+        },
+        {
+          "duration": 265,
+          "track_id": 516265413,
+          "album_id": 61310701,
+          "source_type": 0,
+          "pay_type": 2,
+          "play_size": 3312843,
+          "id": null,
+          "title": "Thumbelina",
+          "play_count": 2004985,
+          "play_url": "http://27.37.65.4:50000/api/story_url_media/andersen.11.thumbelina"
+        },
+        {
+          "duration": 265,
+          "track_id": 516265414,
+          "album_id": 61310701,
+          "source_type": 0,
+          "pay_type": 2,
+          "play_size": 3312843,
+          "id": null,
+          "title": "Storynory Leap",
+          "play_count": 2004985,
+          "play_url": "http://27.37.65.4:50000/api/story_url_media/andersen.12.storynory-leap.mp3"
+        },
+        {
+          "duration": 265,
+          "track_id": 516265415,
+          "album_id": 61310701,
+          "source_type": 0,
+          "pay_type": 2,
+          "play_size": 3312843,
+          "id": null,
+          "title": "Storynory Nightingale",
+          "play_count": 2004985,
+          "play_url": "http://27.37.65.4:50000/api/story_url_media/andersen.13.storynory_nightingale.mp3"
+        }
+      ]
+    },
+    "2": {
+      "album": {
+        "composed_price_type": 1,
+        "album_id": 61310702,
+        "source_type": 1,
+        "pay_type": 4,
+        "id": 53,
+        "title": "一千零一夜",
+        "play_count": 1262043700,
+        "track_count": 2114
+      },
+      "count": 2114,
+      "current_page": 1,
+      "tracks": [
+        {
+          "duration": 265,
+          "track_id": 516265360,
+          "album_id": 61310701,
+          "source_type": 0,
+          "pay_type": 2,
+          "play_size": 3312843,
+          "id": null,
+          "title": "听妈妈的话",
+          "play_count": 2127437,
+          "play_url": "http://27.37.65.4:50000/api/story_url_media/ting_ma_ma_de_hua.mp3"
+        },
+        {
+          "duration": 265,
+          "track_id": 516264373,
+          "album_id": 61310701,
+          "source_type": 0,
+          "pay_type": 2,
+          "play_size": 3312843,
+          "id": null,
+          "title": "听妈妈的话",
+          "play_count": 2081082,
+          "play_url": "http://27.37.65.4:50000/api/story_url_media/ting_ma_ma_de_hua.mp3"
+        }
+      ]
+    },
+    "3": {
+      "album": {
+        "composed_price_type": 1,
+        "album_id": 61310703,
+        "source_type": 1,
+        "pay_type": 4,
+        "id": 53,
+        "title": "格林童话",
+        "play_count": 1262043700,
+        "track_count": 2114
+      },
+      "count": 2114,
+      "current_page": 1,
+      "tracks": [
+        {
+          "duration": 265,
+          "track_id": 516265361,
+          "album_id": 61310701,
+          "source_type": 0,
+          "pay_type": 2,
+          "play_size": 3312843,
+          "id": null,
+          "title": "Snow White",
+          "play_count": 2127437,
+          "play_url": "http://27.37.65.4:50000/api/story_url_media/grimm.1.Snow_White.mp3"
+        },
+        {
+          "duration": 265,
+          "track_id": 516265373,
+          "album_id": 61310701,
+          "source_type": 0,
+          "pay_type": 2,
+          "play_size": 3312843,
+          "id": null,
+          "title": "Golden Fish",
+          "play_count": 2081082,
+          "play_url": "http://27.37.65.4:50000/api/story_url_media/grimm.2.golden_fish.mp3"
+        },
+        {
+          "duration": 265,
+          "track_id": 516265371,
+          "album_id": 61310701,
+          "source_type": 0,
+          "pay_type": 2,
+          "play_size": 3312843,
+          "id": null,
+          "title": "Rumpelstiltskin",
+          "play_count": 2004985,
+          "play_url": "http://27.37.65.4:50000/api/story_url_media/grimm.3.rumpelstiltskin.mp3"
+        },
+        {
+          "duration": 265,
+          "track_id": 516265372,
+          "album_id": 61310701,
+          "source_type": 0,
+          "pay_type": 2,
+          "play_size": 3312843,
+          "id": null,
+          "title": "Rapunzel",
+          "play_count": 2004985,
+          "play_url": "http://27.37.65.4:50000/api/story_url_media/grimm.4.rapunzel.mp3"
+        },
+        {
+          "duration": 265,
+          "track_id": 516665373,
+          "album_id": 61310701,
+          "source_type": 0,
+          "pay_type": 2,
+          "play_size": 3312843,
+          "id": null,
+          "title": "Frog Prince",
+          "play_count": 2004985,
+          "play_url": "http://27.37.65.4:50000/api/story_url_media/grimm.5.FrogPrince.mp3"
+        },
+        {
+          "duration": 265,
+          "track_id": 516265374,
+          "album_id": 61310701,
+          "source_type": 0,
+          "pay_type": 2,
+          "play_size": 3312843,
+          "id": null,
+          "title": "Six Swans",
+          "play_count": 2004985,
+          "play_url": "http://27.37.65.4:50000/api/story_url_media/grimm.6.sixswans.mp3"
+        },
+        {
+          "duration": 265,
+          "track_id": 516265375,
+          "album_id": 61310701,
+          "source_type": 0,
+          "pay_type": 2,
+          "play_size": 3312843,
+          "id": null,
+          "title": "Elves Shoemaker",
+          "play_count": 2004985,
+          "play_url": "http://27.37.65.4:50000/api/story_url_media/grimm.7.elvesshoemaker.mp3"
+        },
+        {
+          "duration": 265,
+          "track_id": 516265376,
+          "album_id": 61310701,
+          "source_type": 0,
+          "pay_type": 2,
+          "play_size": 3312843,
+          "id": null,
+          "title": "Golden Goose",
+          "play_count": 2004985,
+          "play_url": "http://27.37.65.4:50000/api/story_url_media/grimm.8.goldengoose.mp3"
+        },
+        {
+          "duration": 265,
+          "track_id": 516265377,
+          "album_id": 61310701,
+          "source_type": 0,
+          "pay_type": 2,
+          "play_size": 3312843,
+          "id": null,
+          "title": "Old Sultan",
+          "play_count": 2004985,
+          "play_url": "http://27.37.65.4:50000/api/story_url_media/grimm.9.oldsultan.mp3"
+        },
+        {
+          "duration": 265,
+          "track_id": 516265378,
+          "album_id": 61310701,
+          "source_type": 0,
+          "pay_type": 2,
+          "play_size": 3312843,
+          "id": null,
+          "title": "White Snake",
+          "play_count": 2004985,
+          "play_url": "http://27.37.65.4:50000/api/story_url_media/grimm.10.whitesnake.mp3"
+        },
+        {
+          "duration": 265,
+          "track_id": 516265379,
+          "album_id": 61310701,
+          "source_type": 0,
+          "pay_type": 2,
+          "play_size": 3312843,
+          "id": null,
+          "title": "Storynory Dragon Grandmother",
+          "play_count": 2004985,
+          "play_url": "http://27.37.65.4:50000/api/story_url_media/grimm.11.storynory_dragon_grandmother.mp3"
+        },
+        {
+          "duration": 265,
+          "track_id": 516265380,
+          "album_id": 61310701,
+          "source_type": 0,
+          "pay_type": 2,
+          "play_size": 3312843,
+          "id": null,
+          "title": "Storynory Brave Little Taylor",
+          "play_count": 2004985,
+          "play_url": "http://27.37.65.4:50000/api/story_url_media/grimm.12.storynory_brave_little_taylor.mp3"
+        },
+        {
+          "duration": 265,
+          "track_id": 516265381,
+          "album_id": 61310701,
+          "source_type": 0,
+          "pay_type": 2,
+          "play_size": 3312843,
+          "id": null,
+          "title": "Thrushbeard",
+          "play_count": 2004985,
+          "play_url": "http://27.37.65.4:50000/api/story_url_media/grimm.13.thrushbeard.mp3"
+        },
+        {
+          "duration": 265,
+          "track_id": 516265382,
+          "album_id": 61310701,
+          "source_type": 0,
+          "pay_type": 2,
+          "play_size": 3312843,
+          "id": null,
+          "title": "Snow White Rose Red Storynory",
+          "play_count": 2004985,
+          "play_url": "http://27.37.65.4:50000/api/story_url_media/grimm.14.snow-white-rose-red-storynory.mp3"
         }
       ]
     }
