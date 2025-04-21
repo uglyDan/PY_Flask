@@ -1,7 +1,66 @@
 from flask import Flask, json, jsonify, request, send_file
 import os
+from werkzeug.utils import secure_filename
+
+from ai_img import get_image_caption
 
 app = Flask(__name__)
+
+# 配置上传文件夹
+UPLOAD_FOLDER = 'uploads'
+ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg', 'gif'}
+
+# 确保上传文件夹存在
+if not os.path.exists(UPLOAD_FOLDER):
+    os.makedirs(UPLOAD_FOLDER)
+
+def allowed_file(filename):
+    return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
+
+@app.route('/api/upload_image', methods=['POST'])
+def upload_image():
+    print("收到上传图片请求")
+    print("请求头:", request.headers)
+    
+    if 'file' not in request.files:
+        print("请求中没有文件部分")
+        return jsonify({"code": 1, "msg": "No file part"}), 400
+    
+    file = request.files['file']
+    print("文件名:", file.filename)
+    print("文件类型:", file.content_type)
+    
+    if file.filename == '':
+        print("文件名为空")
+        return jsonify({"code": 1, "msg": "No selected file"}), 400
+    
+    if file and allowed_file(file.filename):
+        filename = secure_filename(file.filename)
+        # 如果文件名与已存在的文件名相同，则重命名
+        if os.path.exists(os.path.join(UPLOAD_FOLDER, filename)):
+            filename = f"{filename.split('.')[0]}_copy.{filename.split('.')[-1]}"
+        file_path = os.path.join(UPLOAD_FOLDER, filename)
+        print("保存路径:", file_path)
+        file.save(file_path)
+        print("文件保存成功")
+        caption = get_image_caption(file_path)
+        print("图片描述:", caption)
+        # 只提取描述文本
+        caption_text = caption.get('caption', '') if isinstance(caption, dict) else ''
+        # 将图片描述写入jsonify
+        return jsonify({
+            "code": 0,
+            "msg": "success",
+            "data": {
+                "filename": filename,
+                "path": file_path,
+                "url": f"http://27.37.65.4:50000/uploads/{filename}",
+                "caption": caption_text
+            }
+        })
+    
+    print("文件类型不允许:", file.filename)
+    return jsonify({"code": 1, "msg": "File type not allowed"}), 400
 
 @app.route('/api/list', methods=['GET'])
 def get_list():
@@ -96,6 +155,11 @@ def get_story_url_media(filename):
     
     return response
 
+@app.route('/uploads/<filename>')
+def uploaded_file(filename):
+    return send_file(os.path.join(UPLOAD_FOLDER, filename))
+
 if __name__ == '__main__':
     # 启用调试模式，默认端口5000
     app.run(host='0.0.0.0', port=5000, debug=True)
+    
