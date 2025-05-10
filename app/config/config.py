@@ -5,6 +5,7 @@ class Config:
     DEBUG = False
     UPLOAD_FOLDER = os.path.join('uploads', 'image')
     ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg', 'gif'}
+    BASE_URL = 'http://172.26.25.10:5000'
 
 class DevelopmentConfig(Config):
     DEBUG = True

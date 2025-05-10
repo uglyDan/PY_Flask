@@ -8,10 +8,6 @@ from app.config.config import config
 
 upload_bp = Blueprint('upload', __name__)
 
-@upload_bp.route('/uploads/image/<filename>')
-def uploaded_file(filename):
-    from flask import send_file
-    return send_file(os.path.join(config['default'].UPLOAD_FOLDER, filename))
 
 @upload_bp.route('/api/upload_image', methods=['POST'])
 def upload_image():
@@ -52,7 +48,8 @@ def upload_image():
         # 只提取描述文本
         caption_text = caption.get('caption', '') if isinstance(caption, dict) else ''
         
-        file_url = url_for('upload.uploaded_file', filename=filename, _external=True)
+        # 使用配置的BASE_URL
+        file_url = f"{config['default'].BASE_URL}/uploads/image/{filename}"
         
         # 将图片描述写入响应
         return jsonify({
@@ -69,3 +66,13 @@ def upload_image():
     print("文件类型不允许:", file.filename)
     return jsonify({"code": 1, "msg": "File type not allowed"}), 400
 
+@upload_bp.route('/uploads/image/<filename>')
+def uploaded_file(filename):
+    from flask import send_file
+    
+    # 获取项目根目录
+    base_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+    # 构建完整的文件路径
+    upload_img = config['default'].UPLOAD_FOLDER
+    file_path = os.path.join(base_dir, upload_img, filename)
+    return send_file(file_path)
