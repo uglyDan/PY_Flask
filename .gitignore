@@ -1,4 +1,4 @@
 __pycache__
 env
-uploads/*
-mp3/*
+app/uploads/image/*
+app/uploads/audio/*

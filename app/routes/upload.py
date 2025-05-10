@@ -8,6 +8,11 @@ from app.config.config import config
 
 upload_bp = Blueprint('upload', __name__)
 
+@upload_bp.route('/uploads/image/<filename>')
+def uploaded_file(filename):
+    from flask import send_file
+    return send_file(os.path.join(config['default'].UPLOAD_FOLDER, filename))
+
 @upload_bp.route('/api/upload_image', methods=['POST'])
 def upload_image():
     print("收到上传图片请求")
@@ -29,6 +34,9 @@ def upload_image():
         filename = secure_filename(file.filename)
         upload_folder = config['default'].UPLOAD_FOLDER
         print("upload_folder:", upload_folder)
+        
+        # 确保上传目录存在
+        os.makedirs(upload_folder, exist_ok=True)
         
         # 获取唯一文件名
         filename = get_unique_filename(upload_folder, filename)
@@ -61,9 +69,3 @@ def upload_image():
     print("文件类型不允许:", file.filename)
     return jsonify({"code": 1, "msg": "File type not allowed"}), 400
 
-@upload_bp.route('/uploads/<filename>')
-def uploaded_file(filename):
-    from flask import send_file
-    # 打印UPLOAD_FOLDER
-    print("UPLOAD_FOLDER:", config['default'].UPLOAD_FOLDER)
-    return send_file(os.path.join(config['default'].UPLOAD_FOLDER, filename)) 
