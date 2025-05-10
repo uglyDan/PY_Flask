@@ -1,4 +1,4 @@
-from flask import Blueprint, jsonify, request
+from flask import Blueprint, jsonify, request, url_for
 from werkzeug.utils import secure_filename
 import os
 
@@ -28,6 +28,7 @@ def upload_image():
     if file and allowed_file(file.filename):
         filename = secure_filename(file.filename)
         upload_folder = config['default'].UPLOAD_FOLDER
+        print("upload_folder:", upload_folder)
         
         # 获取唯一文件名
         filename = get_unique_filename(upload_folder, filename)
@@ -43,6 +44,8 @@ def upload_image():
         # 只提取描述文本
         caption_text = caption.get('caption', '') if isinstance(caption, dict) else ''
         
+        file_url = url_for('upload.uploaded_file', filename=filename, _external=True)
+        
         # 将图片描述写入响应
         return jsonify({
             "code": 0,
@@ -50,7 +53,7 @@ def upload_image():
             "data": {
                 "filename": filename,
                 "path": file_path,
-                "url": f"http://27.37.65.4:50000/uploads/{filename}",
+                "url": file_url,
                 "caption": caption_text
             }
         })
@@ -61,4 +64,6 @@ def upload_image():
 @upload_bp.route('/uploads/<filename>')
 def uploaded_file(filename):
     from flask import send_file
+    # 打印UPLOAD_FOLDER
+    print("UPLOAD_FOLDER:", config['default'].UPLOAD_FOLDER)
     return send_file(os.path.join(config['default'].UPLOAD_FOLDER, filename)) 
