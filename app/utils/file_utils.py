@@ -12,7 +12,11 @@ def get_unique_filename(upload_folder, filename):
     return filename
 
 def ensure_upload_folder_exists():
-    """确保上传文件夹存在"""
-    upload_folder = config['default'].UPLOAD_FOLDER
+    """确保所有上传文件夹存在"""
+    upload_folder = current_config.UPLOAD_FOLDER
     if not os.path.exists(upload_folder):
-        os.makedirs(upload_folder) 
+        os.makedirs(upload_folder)
+    
+    audio_upload_folder = current_config.AUDIO_UPLOAD_FOLDER
+    if not os.path.exists(audio_upload_folder):
+        os.makedirs(audio_upload_folder) 
