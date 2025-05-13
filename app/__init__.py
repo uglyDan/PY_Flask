@@ -1,13 +1,13 @@
 from flask import Flask
 import os
 
-from app.config.config import config
+from app.config.config import current_config
 from app.utils.file_utils import ensure_upload_folder_exists
 
-def create_app(config_name='default'):
+def create_app():
     """创建并初始化Flask应用"""
     app = Flask(__name__)
-    app.config.from_object(config[config_name])
+    app.config.from_object(current_config)
     
     # 确保上传文件夹存在
     ensure_upload_folder_exists()
