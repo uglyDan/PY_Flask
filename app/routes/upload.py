@@ -50,7 +50,7 @@ def upload_image():
         
         caption = get_image_caption(file_path)
         print("🖼️ 图片描述:")
-        pprint(caption)
+        print(caption)
         
         # 只提取描述文本
         caption_text = caption.get('caption', '') if isinstance(caption, dict) else ''
@@ -128,7 +128,6 @@ def upload_audio():
     
     print(f"❌ 文件类型不允许: {file.filename}")
     return jsonify({"code": 1, "msg": "File type not allowed"}), 400
-
 
 @upload_bp.route('/uploads/<file_type>/<filename>')
 def uploaded_file(file_type, filename):
