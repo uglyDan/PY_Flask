@@ -28,7 +28,7 @@ def upload_image():
     
     if file and allowed_file(file.filename):
         filename = secure_filename(file.filename)
-        upload_folder = config['default'].UPLOAD_FOLDER
+        upload_folder = current_config.UPLOAD_FOLDER
         print("upload_folder:", upload_folder)
         
         # 确保上传目录存在
@@ -49,7 +49,7 @@ def upload_image():
         caption_text = caption.get('caption', '') if isinstance(caption, dict) else ''
         
         # 使用配置的BASE_URL
-        file_url = f"{config['default'].BASE_URL}/uploads/image/{filename}"
+        file_url = f"{current_config.BASE_URL}/uploads/image/{filename}"
         
         # 将图片描述写入响应
         return jsonify({
