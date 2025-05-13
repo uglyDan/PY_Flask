@@ -66,13 +66,18 @@ def upload_image():
     print("文件类型不允许:", file.filename)
     return jsonify({"code": 1, "msg": "File type not allowed"}), 400
 
-@upload_bp.route('/uploads/image/<filename>')
-def uploaded_file(filename):
+@upload_bp.route('/uploads/<file_type>/<filename>')
+def uploaded_file(file_type, filename):
     from flask import send_file
     
     # 获取项目根目录
     base_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-    # 构建完整的文件路径
-    upload_img = config['default'].UPLOAD_FOLDER
-    file_path = os.path.join(base_dir, upload_img, filename)
+    # 根据文件类型选择不同的上传目录
+    upload_folders = {
+        'image': current_config.UPLOAD_FOLDER,
+        'audio': current_config.AUDIO_UPLOAD_FOLDER
+    }
+    upload_folder = upload_folders.get(file_type, current_config.UPLOAD_FOLDER)
+    file_path = os.path.join(base_dir, upload_folder, filename)
     return send_file(file_path)
+
