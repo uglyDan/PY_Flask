@@ -1,10 +1,10 @@
-from flask import Blueprint, jsonify, request, url_for
+from flask import Blueprint, jsonify, request
 from werkzeug.utils import secure_filename
 import os
 
 from app.services.image_service import get_image_caption
 from app.utils.file_utils import allowed_file, get_unique_filename
-from app.config.config import config
+from app.config.config import current_config
 
 upload_bp = Blueprint('upload', __name__)
 
