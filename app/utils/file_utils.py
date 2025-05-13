@@ -1,9 +1,9 @@
 import os
-from app.config.config import config
+from app.config.config import current_config
 
 def allowed_file(filename):
     """检查文件扩展名是否在允许列表中"""
-    return '.' in filename and filename.rsplit('.', 1)[1].lower() in config['default'].ALLOWED_EXTENSIONS
+    return '.' in filename and filename.rsplit('.', 1)[1].lower() in current_config.ALLOWED_EXTENSIONS
 
 def get_unique_filename(upload_folder, filename):
     """获取唯一文件名，避免文件名冲突"""
