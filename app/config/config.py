@@ -5,7 +5,7 @@ class BaseConfig:
     DEBUG = False
     UPLOAD_FOLDER = os.path.join('uploads', 'image')
     AUDIO_UPLOAD_FOLDER = os.path.join('uploads', 'audio')
-    ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg', 'gif'}
+    ALLOWED_EXTENSIONS = {'jpg', 'mp3'}
     BASE_URL = 'http://172.26.25.10:5000'
 
 class DevelopmentConfig(BaseConfig):
