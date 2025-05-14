@@ -1,11 +1,9 @@
 from openai import OpenAI
-
-API_URL = "https://ai.gitee.com/v1"
-API_KEY = "HIG3RE8ZBAIRKDJELB0D5E0YP1PEIKER2EMHAU1T"
+from app.config.config import current_config
 
 client = OpenAI(
-    base_url=API_URL,
-    api_key=API_KEY,
+    base_url=current_config.API_URL,
+    api_key=current_config.API_KEY,
 )
 
 def get_audio_description(audio_url, model="Qwen2-Audio-7B-Instruct", max_tokens=512):
