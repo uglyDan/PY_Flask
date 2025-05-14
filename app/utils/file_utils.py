@@ -20,3 +20,8 @@ def ensure_upload_folder_exists():
     audio_upload_folder = current_config.AUDIO_UPLOAD_FOLDER
     if not os.path.exists(audio_upload_folder):
         os.makedirs(audio_upload_folder) 
+    
+    tts_output_folder = current_config.TTS_OUTPUT_FOLDER
+    if not os.path.exists(tts_output_folder):
+        os.makedirs(tts_output_folder) 
+
