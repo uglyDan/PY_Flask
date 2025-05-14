@@ -8,7 +8,7 @@ from app.services.image_service import get_image_caption
 from app.utils.file_utils import allowed_file, get_unique_filename
 from app.config.config import current_config
 from app.services.audio_service import get_audio_description
-
+from app.services.tts_service import create_speech
 upload_bp = Blueprint('upload', __name__)
 
 
@@ -112,18 +112,25 @@ def upload_audio():
         print(f"💾 保存路径: {file_path}")
         file.save(file_path)
         print("✅ 文件保存成功")
-        file_url = f"{current_config.BASE_URL}/uploads/audio/{filename}"
+        # warning 测试 url http://gdust.feldan1.top:50000/uploads/audio/test.MP3！！！
+        # file_url = f"{current_config.BASE_URL}/uploads/audio/{filename}"
+        # 测试 url http://gdust.feldan1.top:50000/uploads/audio/test.MP3
+        file_url = "https://alist.feldan1.top:9443/d/temp/ou/test.MP3"
         audio_text = get_audio_description(file_url, model="Qwen2-Audio-7B-Instruct", max_tokens=128)
         
-        # 使用配置的BASE_URL
-        file_url = f"{current_config.BASE_URL}/uploads/audio/{filename}"
-        
         # 返回音频处理结果
-        response = audio_text
-
-        print("📤 返回响应:")
-        print(json.dumps(response, ensure_ascii=False, indent=4))
-        print("="*50 + "\n")
+        response = audio_text.get('audio_description', '')
+        print("文本：",response)
+        tmp = create_speech(response,output_path=f"{filename}")
+        print("音频json：",tmp)
+        
+        # 返回成功响应
+        response = {
+            "code": 0,
+            "msg": "success",
+            "audio_text": response,
+            
+        }
         return jsonify(response)
     
     print(f"❌ 文件类型不允许: {file.filename}")
