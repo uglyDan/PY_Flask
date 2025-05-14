@@ -2,10 +2,7 @@ from openai import OpenAI
 import os
 from app.config.config import current_config
 
-API_URL = "https://ai.gitee.com/v1"
-API_KEY = "HIG3RE8ZBAIRKDJELB0D5E0YP1PEIKER2EMHAU1T"
-
-def create_speech(text, model="Step-Audio-TTS-3B", voice="alloy", output_path=None):
+def create_speech(text,output_path=None):
     """
     将文本转换为语音
     
@@ -20,28 +17,25 @@ def create_speech(text, model="Step-Audio-TTS-3B", voice="alloy", output_path=No
     """
     try:
         client = OpenAI(
-            base_url=API_URL,
-            api_key=API_KEY,
+            base_url = current_config.API_URL,
+            api_key = current_config.API_KEY,
         )
 
         response = client.audio.speech.create(
-            model=model,
-            input=text,
-            voice=voice,
+            model = "Step-Audio-TTS-3B",
+            input = text,
+            voice = "alloy",
         )
         
         if output_path:
             # 如果只提供了文件名，使用默认目录
             if not os.path.dirname(output_path):
-                output_path = os.path.join(current_config.AUDIO_UPLOAD_FOLDER, output_path)
+                output_path = os.path.join(current_config.TTS_OUTPUT_FOLDER, output_path)
                 print(output_path)
             
             # 保存音频文件
             with open(output_path, 'wb') as f:
                 f.write(response.content)
             return {"success": True, "file_path": output_path}
-            
-        return {"success": True, "audio_data": response.content}
-        
     except Exception as e:
         return {"error": str(e)}
