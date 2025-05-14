@@ -1,10 +1,11 @@
 import requests
 from requests_toolbelt import MultipartEncoder
 import os
+from app.config.config import current_config
 
 API_URL = "https://ai.gitee.com/v1/images/caption"
 headers = {
-    "Authorization": "Bearer 7CNIDO2WCXSMVYQXRVC2IDBUFGMGH1U0TFXLIQ1V"
+    "Authorization": f"Bearer {current_config.API_KEY}"
 }
 
 def get_image_caption(image_path, model="Florence-2-large", caption_level=1):
