@@ -112,8 +112,8 @@ def upload_audio():
         print(f"💾 保存路径: {file_path}")
         file.save(file_path)
         print("✅ 文件保存成功")
-        
-        audio_text = get_audio_description(file_path, model="Qwen2-Audio-7B-Instruct", max_tokens=128)
+        file_url = f"{current_config.BASE_URL}/uploads/audio/{filename}"
+        audio_text = get_audio_description(file_url, model="Qwen2-Audio-7B-Instruct", max_tokens=128)
         
         # 使用配置的BASE_URL
         file_url = f"{current_config.BASE_URL}/uploads/audio/{filename}"
