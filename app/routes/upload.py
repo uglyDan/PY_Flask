@@ -112,10 +112,11 @@ def upload_audio():
         print(f"💾 保存路径: {file_path}")
         file.save(file_path)
         print("✅ 文件保存成功")
-        # warning 测试 url http://gdust.feldan1.top:50000/uploads/audio/test.MP3！！！
-        # file_url = f"{current_config.BASE_URL}/uploads/audio/{filename}"
+        file_url = f"{current_config.BASE_URL}/uploads/audio/{filename}"
+        print("文件url",file_url)
+        # warning 测试 url 记得修改！！！
         # 测试 url http://gdust.feldan1.top:50000/uploads/audio/test.MP3
-        file_url = "https://alist.feldan1.top:9443/d/temp/ou/test.MP3"
+        # file_url = "https://alist.feldan1.top:9443/d/temp/ou/test.MP3"
         audio_text = get_audio_description(file_url, model="Qwen2-Audio-7B-Instruct", max_tokens=128)
         
         # 返回音频处理结果
