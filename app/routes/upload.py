@@ -129,9 +129,11 @@ def upload_audio():
         response = {
             "code": 0,
             "msg": "success",
-            "audio_text": response,
+            # "audio_text": response,
+            "audio_url": f"{current_config.BASE_URL}/uploads/tts/{filename}"
             
         }
+        print("返回响应：",response)
         return jsonify(response)
     
     print(f"❌ 文件类型不允许: {file.filename}")
