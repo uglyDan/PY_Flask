@@ -146,7 +146,8 @@ def uploaded_file(file_type, filename):
     # 根据文件类型选择不同的上传目录
     upload_folders = {
         'image': current_config.UPLOAD_FOLDER,
-        'audio': current_config.AUDIO_UPLOAD_FOLDER
+        'audio': current_config.AUDIO_UPLOAD_FOLDER,
+        'tts': current_config.TTS_OUTPUT_FOLDER
     }
     upload_folder = upload_folders.get(file_type, current_config.UPLOAD_FOLDER)
     file_path = os.path.join(base_dir, upload_folder, filename)
